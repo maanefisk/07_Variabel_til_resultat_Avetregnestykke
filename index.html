@@ -18,7 +18,7 @@
     <p>Høyde</p>
     <input id='hoyde' type="range" min="1" max="1000" step="1" oninput="dothiss()" />
 
-    <div id="ting" style="background-color: rgb(157, 152, 175);">Her</div>
+    <div id="ting">Her</div>
     <div id="HTMLting"> Her</div>
     <br/> 
     <br/>
@@ -65,7 +65,7 @@
 
         ting.innerHTML = `
 
-        Background-Color: ${ting.style.backgroundColor},
+        Background-Color: ${ting.style.backgroundColor = "rgb(157, 152, 175)"},
         Width: ${bredde.value} px
         Height: ${hoyde.value} px `
         
